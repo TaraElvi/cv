@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>ЭЛЬВИРА</title>
+<style>
+  body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #ffe6f0; /* нежно-розовый фон */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    cursor: url('cat_link.png'), auto; /* ваш курсор */
+  }
+
+  .card {
+    background-color: #fff;
+    padding: 40px;
+    max-width: 400px;
+    width: 90%;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  /* Фото */
+  .profile-photo {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10%;
+    border: 2px solid #ccc;
+    display: block;
+    margin: 0 auto 15px auto;
+}
+
+h1 {
+  margin-top:0;
+  font-size:2em;
+  color:#333;
+}
+
+p {
+  font-size:1.1em;
+  color:#555;
+}
+
+.contacts {
+  margin-top:20px;
+  text-align:left;
+}
+
+.contacts p {
+   margin:8px 0;
+}
+
+a {
+   color:#0066cc;
+   text-decoration:none;
+}
+a:hover {
+   text-decoration:underline;
+}
+
+/* Хобби - стиль как email (цвет и шрифт) */
+.hobbies {
+   margin-top:20px; 
+   text-align:left; 
+   font-family:'Arial',sans-serif; 
+   color:#555; 
+}
+
+/* Гифка внизу слева */
+.greeting-cat {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  width: 250px; /* увеличьте ширину по необходимости */
+  height: auto; /* сохраняет пропорции */
+}
+</style>
+</head>
+<body>
+
+<div class="card">
+<!-- Вставьте сюда свою фотографию -->
+<img src="5193116705478525682.jpg" alt="Моя фотография" class="profile-photo" />
+
+<h1>Тарабрина Эльвира</h1>
+<p>Junior Tester</p>
+
+<div class="hobbies">
+<h2>Хобби</h2>
+<ul>
+<li>Спорт</li>
+<li>Шоппинг</li>
+<li>Путешествия</li>
+</ul>
+</div>
+
+<div class="contacts">
+<p><strong>Email:</strong> elvira-tarabrina@mail.ru</p>
+<p><strong>Соцсети:</strong> 
+<a href="https://vk.com/id275484131">VK</a>, 
+<a href="http://t.me/tarabrinaelvira">Telegram</a>,
+<a href="https://www.instagram.com/tarabrina_elvira?igsh=cWttYmJtenVjOW82&utm_source=qr">Instagram</a>, 
+<a href="https://www.facebook.com/elya.tarabrina">Facebook</a></p>
+</div>
+</div>
+
+<!-- Гифка с приветственным котиком -->
+<img src="гифка.gif" alt="Приветственный котик" class="greeting-cat" />
+
+</body>
+</html>
